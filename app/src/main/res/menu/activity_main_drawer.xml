@@ -16,5 +16,13 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_calculate"
+            android:title="Calculate"/>
+
+        <item
+            android:id="@+id/nav_webView"
+            android:title="WebView"/>
     </group>
 </menu>
