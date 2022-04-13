@@ -1,4 +1,4 @@
-package ru.mirea.baskakov.mireaproject;
+package ru.mirea.baskakov.mireaproject.ui.sensor;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -13,6 +13,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import ru.mirea.baskakov.mireaproject.R;
 
 
 public class SensorFragment extends Fragment implements SensorEventListener {

@@ -1,4 +1,4 @@
-package ru.mirea.baskakov.mireaproject;
+package ru.mirea.baskakov.mireaproject.ui.dictaphone;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -25,6 +25,9 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.io.IOException;
+
+import ru.mirea.baskakov.mireaproject.MainActivity;
+import ru.mirea.baskakov.mireaproject.R;
 
 public class DictaphoneFragment extends Fragment {
 

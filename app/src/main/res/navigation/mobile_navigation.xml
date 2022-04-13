@@ -24,32 +24,47 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_calculate"
-        android:name="ru.mirea.baskakov.mireaproject.CalculateFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.calculate.CalculateFragment"
         android:label="fragment_calculate"
         tools:layout="@layout/fragment_calculate" />
     <fragment
         android:id="@+id/nav_webView"
-        android:name="ru.mirea.baskakov.mireaproject.WebViewFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.webview.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
     <fragment
         android:id="@+id/nav_playMusic"
-        android:name="ru.mirea.baskakov.mireaproject.PlayMusicFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.playmusic.PlayMusicFragment"
         android:label="fragment_play_music"
         tools:layout="@layout/fragment_play_music" />
     <fragment
         android:id="@+id/nav_sensor"
-        android:name="ru.mirea.baskakov.mireaproject.SensorFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.sensor.SensorFragment"
         android:label="fragment_sensor"
         tools:layout="@layout/fragment_sensor" />
     <fragment
         android:id="@+id/nav_camera"
-        android:name="ru.mirea.baskakov.mireaproject.CameraFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.camera.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
     <fragment
         android:id="@+id/nav_dictaphone"
-        android:name="ru.mirea.baskakov.mireaproject.DictaphoneFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.dictaphone.DictaphoneFragment"
         android:label="fragment_dictaphone"
         tools:layout="@layout/fragment_dictaphone" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="ru.mirea.baskakov.mireaproject.ui.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="ru.mirea.baskakov.mireaproject.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/addHistoryFragment"
+        android:name="ru.mirea.baskakov.mireaproject.ui.history.AddHistoryFragment"
+        android:label="fragment_add_history"
+        tools:layout="@layout/fragment_add_history" />
 </navigation>

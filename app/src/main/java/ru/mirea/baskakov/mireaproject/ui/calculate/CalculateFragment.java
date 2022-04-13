@@ -1,4 +1,4 @@
-package ru.mirea.baskakov.mireaproject;
+package ru.mirea.baskakov.mireaproject.ui.calculate;
 
 import android.os.Bundle;
 
@@ -11,6 +11,8 @@ import android.widget.TextView;
 import android.widget.Button;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+
+import ru.mirea.baskakov.mireaproject.R;
 
 public class CalculateFragment extends Fragment {
 

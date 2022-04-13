@@ -1,4 +1,4 @@
-package ru.mirea.baskakov.mireaproject;
+package ru.mirea.baskakov.mireaproject.ui.camera;
 
 import android.Manifest;
 import android.content.Intent;
@@ -28,6 +28,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import ru.mirea.baskakov.mireaproject.MainActivity;
+import ru.mirea.baskakov.mireaproject.R;
 
 
 public class CameraFragment extends Fragment {

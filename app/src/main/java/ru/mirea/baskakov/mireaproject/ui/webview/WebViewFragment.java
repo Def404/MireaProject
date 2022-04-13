@@ -1,4 +1,4 @@
-package ru.mirea.baskakov.mireaproject;
+package ru.mirea.baskakov.mireaproject.ui.webview;
 
 import android.os.Bundle;
 
@@ -11,6 +11,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import ru.mirea.baskakov.mireaproject.R;
 
 public class WebViewFragment extends Fragment {
 

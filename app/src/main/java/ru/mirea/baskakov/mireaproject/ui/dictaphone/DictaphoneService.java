@@ -1,4 +1,4 @@
-package ru.mirea.baskakov.mireaproject;
+package ru.mirea.baskakov.mireaproject.ui.dictaphone;
 
 import android.app.Service;
 import android.content.Intent;
