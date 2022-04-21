@@ -31,6 +31,7 @@ public class HttpApiFragment extends Fragment {
 
     private EditText userIdVkEditText;
     private TextView userStatusTextView;
+    private String vkToken = "";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -52,7 +53,7 @@ public class HttpApiFragment extends Fragment {
             networkinfo = connectivityManager.getActiveNetworkInfo();
         }
         if (networkinfo != null && networkinfo.isConnected()) {
-            String url = "https://api.vk.com/method/status.get?user_id="+userIdVkEditText.getText().toString()+"&access_token=1d345b93fe64630096843cb00ae305850afdc7d2f23275814b4986b419f8c2bce295fef0ce8b5d85df052&v=5.131";
+            String url = "https://api.vk.com/method/status.get?user_id="+userIdVkEditText.getText().toString()+"&access_token="+ vkToken +"&v=5.131";
             new DownloadPageTask().execute(url); // запускаем в новом потоке
         } else {
             Toast.makeText(getActivity(), "Нет интернета", Toast.LENGTH_SHORT).show();
