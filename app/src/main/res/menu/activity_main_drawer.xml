@@ -48,5 +48,9 @@
         <item
             android:id="@+id/nav_history"
             android:title="History"/>
+
+        <item
+            android:id="@+id/nav_httpApi"
+            android:title="VK Status"/>
     </group>
 </menu>

@@ -67,4 +67,9 @@
         android:name="ru.mirea.baskakov.mireaproject.ui.history.AddHistoryFragment"
         android:label="fragment_add_history"
         tools:layout="@layout/fragment_add_history" />
+    <fragment
+        android:id="@+id/nav_httpApi"
+        android:name="ru.mirea.baskakov.mireaproject.ui.httpapi.HttpApiFragment"
+        android:label="fragment_http_api"
+        tools:layout="@layout/fragment_http_api" />
 </navigation>
